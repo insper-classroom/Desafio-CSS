@@ -55,7 +55,7 @@ body {
   flex-direction: column;  /*organiza em linha em X*/
   align-items: left;
   border-radius: 3px; /*Curvando a borda da caixa*/
-  margin: 1.5rem 45rem;
+  width: 400px;
   padding: 1rem;
   box-shadow: 0 4px 6px #9c9b9b;
 }
@@ -77,10 +77,18 @@ body {
   box-shadow: 0 2px 3px #9c9b9b;
 }
 
+.container{
+  display:flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 30px
+}
+
 /*-------------------------------------------------------------------------------*/
 
 .card{
-  font-family: "Roboto", sans-serif;
+  font-family: 'Permanent Marker', cursive;
   display: flex;
   flex-direction: column;  /*organiza em linha em X*/
   align-items: left;
@@ -97,7 +105,9 @@ body {
   font-weight: bold;
   margin: 0rem 0rem 1rem 0rem;
 }
-
+.card-content{
+  color: #4b4949;
+}
 .card-container{
   display: flex;
   flex-direction: row;
